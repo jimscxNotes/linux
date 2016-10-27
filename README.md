@@ -10,8 +10,16 @@
 * ssh-agent
 * ssh-add
 * ssh key的生成：ssh-keygen -t rsa
-* ssh root@jimscx.top -p xxxx
-* ssh rsync -avzP 当前目录 目的目录  
+* 免密登录 
+
+```
+cd /root/.ssh
+vi authorized_keys2
+把类似ssh-rsa … local 这样的公钥(也就是利用ssh key 生成的key)加入到authorized_keys2的最后一行
+```
+
+* 远程登录 ：ssh root@jimscx.top -p xxxx
+* 从远程拷贝 ：ssh rsync -avzP 当前目录 目的目录  
 
 ### nginx
 * 启动 nginx `service nginx start`
