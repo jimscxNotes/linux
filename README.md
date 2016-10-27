@@ -12,3 +12,8 @@
 * ssh key的生成：ssh-keygen -t rsa
 * ssh root@jimscx.top -p xxxx
 * ssh rsync -avzP 当前目录 目的目录  
+
+### nginx
+* 启动 nginx `service nginx start`
+* 重启 nginx `service nginx restart`
+* 停止 nginx `service nginx stop`
