@@ -4,6 +4,21 @@
 #### 解压缩命令
 * tar -zcvf 压缩后的文件(后缀名.tar.gz,.tar等) 被压缩文件 压缩
 * tar -zxvf 被解压文件(后缀名.tar.gz,.tar等) 解压
+
+#### 日志
+* docker logs --tail 50 -f yiqikong-wechat 查看docker日志文件 
+* tail命令参数
+
+> 命令参数：
+ * -f 循环读取
+ * -q 不显示处理信息
+ * -v 显示详细的处理信息
+ * -c<数目> 显示的字节数
+ * -n<行数> 显示行数
+ * --pid=PID 与-f合用,表示在进程ID,PID死掉之后结束. 
+ * -q, --quiet, --silent 从不输出给出文件名的首部 
+ * -s, --sleep-interval=S 与-f合用,表示在每次反复的间隔休眠S秒 
+
  
 #### 软连接
 * ln -s sourcefile targetfile 软连接，类似win下快捷方式
