@@ -1,4 +1,6 @@
 ##### linux 常用命令
+
+* df -hl 查看磁盘信息
 #### 解压缩命令
 * tar -zcvf 压缩后的文件(后缀名.tar.gz,.tar等) 被压缩文件 压缩
 * tar -zxvf 被解压文件(后缀名.tar.gz,.tar等) 解压
